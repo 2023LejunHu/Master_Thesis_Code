@@ -1,0 +1,49 @@
+################################################################
+
+
+
+
+def create_sample_devices():
+    return [
+        Device("ESP32", 1.5e6, 48, 5, 10),
+        Device("RaspberryPi", 3.0e6, 128, 10, 10),
+        Device("JetsonNano", 1.0e7, 512, 20, 10),
+        Device("Laptop_i7", 1.0e8, 2048, 100, 10),
+        Device("Server_Xeon", 2.0e8, 4096, 200, 10),
+    ]
+
+################################################################
+
+
+def create_sample_devices():
+    return [
+        Device("Device1", 2.0e6, 256, 100, 10),
+        Device("Device2", 5.0e6, 128, 150, 10),
+        Device("Device3", 1.5e6, 512, 80, 10),
+        Device("Device4", 6.0e6, 192, 250, 10),
+        Device("Device5", 4.5e6, 384, 120, 10),
+    ]
+
+
+################################################################
+
+def create_sample_devices():
+    return [
+        Device("Device1", 3.0e6, 128, 10, 10),
+        Device("Device2", 6.0e6, 256, 12, 10),
+        Device("Device3", 1.0e7, 512, 20, 10),
+        Device("Device4", 2.0e8, 1024, 100, 10),
+        Device("Device5", 2.0e8, 1024, 100, 10),
+    ]
+
+
+#####################################
+
+def create_sample_devices():
+    return [
+        Device("Device1", 3.0e6, 128, 10, 10),   
+        Device("Device2", 6.0e6, 160, 12, 10),   
+        Device("Device3", 8.0e6, 192, 15, 10),   
+        Device("Device4", 1.0e7, 256, 20, 10),   
+        Device("Device5", 1.0e7, 256, 20, 10),   
+    ]
